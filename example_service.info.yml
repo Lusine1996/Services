@@ -1,0 +1,5 @@
+name: 'Example Service'
+type: module
+description: 'Simple example of services and dependency injection in Drupal'
+package: Custom
+core_version_requirement: ^10

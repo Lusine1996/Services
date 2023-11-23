@@ -1,0 +1,3 @@
+services:
+  example_service.salutation:
+    class: Drupal\example_service\ServiceExample
