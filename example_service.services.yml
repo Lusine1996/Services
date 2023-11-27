@@ -1,3 +1,6 @@
 services:
   example_service.salutation:
     class: Drupal\example_service\ServiceExample
+  example_service.dependency:
+    class: Drupal\example_service\ServiceDependency
+    arguments: ['@current_user']

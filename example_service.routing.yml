@@ -1,0 +1,16 @@
+example_service.injection:
+  path: '/example-service'
+  defaults:
+    _title: 'Dependency Injection'
+    _controller: 'Drupal\example_service\Controller\DependencyController::greet'
+  requirements:
+    _permission: 'access content'
+
+example_service.controller:
+  path: '/service-controller'
+  defaults:
+    _title: 'Injecting service in controller'
+    _controller: 'Drupal\example_service\Controller\ServiceController::getSalutation'
+  requirements:
+    _permission: 'access content'
+
