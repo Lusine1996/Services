@@ -10,7 +10,7 @@ example_service.controller:
   path: '/service-controller'
   defaults:
     _title: 'Injecting service in controller'
-    _controller: 'Drupal\example_service\Controller\ServiceController::getSalutation'
+    _controller: 'Drupal\example_service\Controller\ServiceController::getHello'
   requirements:
     _permission: 'access content'
 
