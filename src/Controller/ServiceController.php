@@ -32,7 +32,7 @@ class ServiceController extends ControllerBase {
     );
   }
 
-  public function getSalutation(){
+  public function getHello(){
     return [
       '#markup'=>$this->salutation->getRandomSalutation(),
     ];
